@@ -26,7 +26,7 @@ alias sc="source"
 alias vi="nvim"
 alias v="nvim"
 alias rf="rm -rf"
-alias 
+alias cr="cargo run"
 # -----------------------
 # Git aliases
 # -----------------------
