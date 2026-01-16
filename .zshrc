@@ -13,7 +13,7 @@ source $ZSH/oh-my-zsh.sh
 export MANPATH="/usr/local/man:$MANPATH"
 
 # -----------------------
-# General aliases
+# General Aliases
 # -----------------------
 alias dir="ls -a"
 alias nis="npm install"
@@ -21,17 +21,27 @@ alias ns="npm start"
 alias nrd="npm run dev"
 alias nt="npm run test"
 alias cls="clear"
+alias cs="clear"
 alias co="code"
 alias sc="source"
 alias vi="nvim"
 alias v="nvim"
+alias vim="nvim"
 alias rf="rm -rf"
-alias cr="cargo run"
+alias rn="cargo run"
+
 # -----------------------
-# Git aliases
+# Homebrew Aliases
+# -----------------------
+alias bl="brew list"
+alias bu="brew uninstall"
+alias bi="brew install"
+
+# -----------------------
+# Git Aliases
 # -----------------------
 alias gif="git diff"
-alias gp="git push"
+alias gpu="git push"
 alias gr="git remote -v"
 alias gro="git remote add origin"
 alias gch="git checkout"
